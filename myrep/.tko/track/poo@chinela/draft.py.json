@@ -1,0 +1,24 @@
+{
+    "patches": [
+        {
+            "label": "2025-10-15_20-34-22",
+            "content": "@@ -1,1030 +0,0 @@\n-class Chinela:%0A    # inicializa%C3%A7%C3%A3o da chinela com valor de tamanho 0%0A    def __init__(self):    # isso %C3%A9 o construtor em python%0A        self.__tamanho = 0 # quando tem __ na frente em python %C3%A9 privado%0A%0A    def getTamanho(self): # m%C3%A9todos em python tem self como primeiro atributo%0A        return self.__tamanho%0A%0A    def setTamanho(self, valor: int):%0A        if valor %25 2 != 0:%0A            print('Erro: o tamanho deve ser um n%C3%BAmero PAR.')%0A        elif valor %3C 20 or valor %3E 50:%0A            print('Erro: o tamanho deve estar entre 20 e 50.')%0A# loop principal%0Achinela = Chinela() # criando chinela com valor tamanho padr%C3%A3o%0A%0Awhile chinela.getTamanho() == 0: # mantendo usu%C3%A1rio no loop%0A    print(%22Digite seu tamanho de chinela%22)%0A    try:%0A        tamanho = int(input()) # lendo a resposta e convertendo pra inteiro%0A        chinela.setTamanho(tamanho) # tentando atribuir e disparando %0A    except ValueError:%0A        print('Erro: Digite apenas n%C3%BAmeros inteiros.')%0A%0Aprint(%22Parabens, voc%C3%AA comprou uma chinela tamanho%22, chinela.getTamanho())\n",
+            "lines": "0"
+        },
+        {
+            "label": "2025-10-15_22-57-16",
+            "content": "@@ -713,18 +713,16 @@\n  chinela\n-: \n %22)%0A    t\n",
+            "lines": "25"
+        },
+        {
+            "label": "2025-10-15_22-58-43",
+            "content": "@@ -536,112 +536,8 @@\n .')%0A\n-        else:%0A            self.__tamanho = valor%0A            print('Tamanho v%C3%A1lido! Chinela Ajustada.')%0A\n # lo\n",
+            "lines": "25"
+        },
+        {
+            "label": "2025-10-15_23-02-19",
+            "content": "class Chinela:\n    # inicializa\u00e7\u00e3o da chinela com valor de tamanho 0\n    def __init__(self):    # isso \u00e9 o construtor em python\n        self.__tamanho = 0 # quando tem __ na frente em python \u00e9 privado\n\n    def getTamanho(self): # m\u00e9todos em python tem self como primeiro atributo\n        return self.__tamanho\n\n    def setTamanho(self, valor: int):\n        if valor % 2 != 0:\n            print('Erro: o tamanho deve ser um n\u00famero PAR.')\n        elif valor < 20 or valor > 50:\n            print('Erro: o tamanho deve estar entre 20 e 50.')\n        else:\n            self.__tamanho = valor\n            print('Tamanho v\u00e1lido! Chinela Ajustada.')\n# loop principal\nchinela = Chinela() # criando chinela com valor tamanho padr\u00e3o\n\nwhile chinela.getTamanho() == 0: # mantendo usu\u00e1rio no loop\n    print(\"Digite seu tamanho de chinela: \")\n    try:\n        tamanho = int(input()) # lendo a resposta e convertendo pra inteiro\n        chinela.setTamanho(tamanho) # tentando atribuir e disparando \n    except ValueError:\n        print('Erro: Digite apenas n\u00fameros inteiros.')\n\nprint(\"Parabens, voc\u00ea comprou uma chinela tamanho\", chinela.getTamanho())",
+            "lines": "28"
+        }
+    ]
+}
