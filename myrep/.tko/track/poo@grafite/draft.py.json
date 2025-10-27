@@ -1,0 +1,59 @@
+{
+    "patches": [
+        {
+            "label": "2025-10-27_17-38-22",
+            "content": "@@ -1,546 +0,0 @@\n-class GrafiteDraft:%0A    def __init__(self, thickness:float, hardness:str, size:int):%0A        self.thickness = thickness%0A        self.hardness = hardness%0A        self.size = size %0A    %0A    def usePerSheet(self):%0A        gastos = %7B'HB':1, '2B':2, '4B':4, '6B':6%7D%0A        return gastos.get(self.hardness, None)%0A    %0A    def __str__(self):%0A        return f%22%7Bself.thickness%7D:%7Bself.hardness%7D:%7Bself.size%7D%22 %0A    %0Aclass Pen:%0A    def __init__(self, thickness:float):%0A        self.__thickness = thickness%0A        self.__tip = None%0A%0A        %0A       %0A        \n",
+            "lines": "0"
+        },
+        {
+            "label": "2025-10-27_17-58-46",
+            "content": "@@ -522,422 +522,12 @@\n     \n-def hasGrafite(self) -%3E bool:%0A        return self.__tip is not None%0A    %0A    def insert(self, grafite:Grafite) -%3E bool:%0A        if self.hasGrafite():%0A            print(%22fail: ja existe grafite%22)%0A            return False%0A        if grafite.thickness != self.__thickness:%0A            print(%22fail: calibre incompativel%22)%0A            return False%0A        self.__tip = grafite%0A        return True %0A    %0A    def __str__%0A\n+    \n %0A   \n",
+            "lines": "21"
+        },
+        {
+            "label": "2025-10-27_18-15-25",
+            "content": "@@ -935,239 +935,8 @@\n tr__\n- (self):%0A        if self.hasGrafite():%0A            return f'Calibre: %7Bself.__thickness%7D, Grafite: %5B%7Bself.__tip%7D%5D'%0A        else:%0A            return f'Calibre: %7Bself.__thickness%7D, Grafite: null'%0A        %0A    def remove(self)%0A        \n %0A%0A  \n",
+            "lines": "35"
+        },
+        {
+            "label": "2025-10-27_18-19-08",
+            "content": "@@ -1166,117 +1166,8 @@\n     \n-if not self.hasGrafite():%0A            print(%22fail: nao existe grafite%22)%0A            return None%0A        %0A    \n %0A%0A  \n",
+            "lines": "42"
+        },
+        {
+            "label": "2025-10-27_18-30-26",
+            "content": "@@ -1149,25 +1149,24 @@\n remove(self)\n-:\n %0A        if \n@@ -1262,116 +1262,8 @@\n one%0A\n-        removed = self.__tip%0A        self.__tip = None%0A        return removed%0A    %0A    def writePage(self):%0A\n     \n",
+            "lines": "46"
+        },
+        {
+            "label": "2025-10-27_18-33-37",
+            "content": "@@ -1379,562 +1379,8 @@\n     \n-if not self.hasGrafite():%0A            print('fail: nao existe grafite')%0A            return False%0A        %0A        grafite = self.__tip%0A        gasto = grafite.usePerSheet()%0A%0A        if gasto is None:%0A            print('fail: dureza invalida')%0A            return False%0A        %0A        if grafite.size %3C= 10:%0A            print('fail: tamanho insuficiente')%0A            grafite.size = 10%0A            return False%0A        %0A        grafite.size -= gasto%0A%0A        if grafite.size %3C 10:%0A            grafite.size = 10%0A            print('fail: folha incompleta')\n %0A   \n",
+            "lines": "51"
+        },
+        {
+            "label": "2025-10-27_18-43-28",
+            "content": "@@ -1933,1205 +1933,8 @@\n ta')\n-%0A%0A        return True%0A    %0Adef main():%0A    lapiseira = None%0A%0A    while True:%0A        line = input()%0A        print(%22$%22 + line)%0A        args = line.split()%0A    %0A        if args%5B0%5D == %22end%22:%0A            break%0A        elif args%5B0%5D == 'show':%0A            if lapiseira is not None:%0A                print(lapiseira)%0A            else:%0A                print('fail: lapiseira nao inicializada')%0A        elif args%5B0%5D == 'init':%0A            calibre = float(args%5B1%5D)%0A            lapiseira = Pen(calibre)%0A        elif args%5B0%5D == 'insert':%0A            if lapiseira:%0A                espessura = float(args%5B1%5D)%0A                dureza = args%5B2%5D%0A                tamanho = int(args%5B3%5D)%0A                grafite = Grafite(espessura, dureza, tamanho)%0A                lapiseira.insert(grafite)%0A            else:%0A                print('fail: lapiseira nao inicializada')%0A        elif args%5B0%5D == 'remove':%0A            if lapiseira:%0A                lapiseira.remove()%0A            else:%0A                print('fail: lapiseira nao inicializada')%0A        elif args%5B0%5D == 'write':%0A            if lapiseira:%0A                lapiseira.writePage()%0A            else:%0A                print('fail: lapiseira nao inicializada')%0A%0Amain()\n %0A   \n",
+            "lines": "71"
+        },
+        {
+            "label": "2025-10-27_18-52-48",
+            "content": "@@ -6,16 +6,21 @@\n  Grafite\n+Draft\n :%0A    de\n",
+            "lines": "113"
+        },
+        {
+            "label": "2025-10-27_18-55-10",
+            "content": "@@ -978,33 +978,33 @@\n        return f'\n-c\n+C\n alibre: %7Bself.__\n@@ -1075,17 +1075,17 @@\n eturn f'\n-c\n+C\n alibre: \n",
+            "lines": "113"
+        },
+        {
+            "label": "2025-10-27_18-55-35",
+            "content": "@@ -1007,33 +1007,33 @@\n f.__thickness%7D, \n-g\n+G\n rafite: %5B%7Bself._\n@@ -1104,17 +1104,17 @@\n kness%7D, \n-g\n+G\n rafite: \n",
+            "lines": "113"
+        },
+        {
+            "label": "2025-10-27_18-55-53",
+            "content": "class Grafite:\n    def __init__(self, thickness:float, hardness:str, size:int):\n        self.thickness = thickness\n        self.hardness = hardness\n        self.size = size \n    \n    def usePerSheet(self):\n        gastos = {'HB':1, '2B':2, '4B':4, '6B':6}\n        return gastos.get(self.hardness, None)\n    \n    def __str__(self):\n        return f\"{self.thickness}:{self.hardness}:{self.size}\" \n    \nclass Pen:\n    def __init__(self, thickness:float):\n        self.__thickness = thickness\n        self.__tip = None\n\n    def hasGrafite(self) -> bool:\n        return self.__tip is not None\n    \n    def insert(self, grafite:Grafite) -> bool:\n        if self.hasGrafite():\n            print(\"fail: ja existe grafite\")\n            return False\n        if grafite.thickness != self.__thickness:\n            print(\"fail: calibre incompativel\")\n            return False\n        self.__tip = grafite\n        return True \n    \n    def __str__ (self):\n        if self.hasGrafite():\n            return f'calibre: {self.__thickness}, grafite: [{self.__tip}]'\n        else:\n            return f'calibre: {self.__thickness}, grafite: null'\n        \n    def remove(self):\n        if not self.hasGrafite():\n            print(\"fail: nao existe grafite\")\n            return None\n        removed = self.__tip\n        self.__tip = None\n        return removed\n    \n    def writePage(self):\n        if not self.hasGrafite():\n            print('fail: nao existe grafite')\n            return False\n        \n        grafite = self.__tip\n        gasto = grafite.usePerSheet()\n\n        if gasto is None:\n            print('fail: dureza invalida')\n            return False\n        \n        if grafite.size <= 10:\n            print('fail: tamanho insuficiente')\n            grafite.size = 10\n            return False\n        \n        grafite.size -= gasto\n\n        if grafite.size < 10:\n            grafite.size = 10\n            print('fail: folha incompleta')\n\n        return True\n    \ndef main():\n    lapiseira = None\n\n    while True:\n        line = input()\n        print(\"$\" + line)\n        args = line.split()\n    \n        if args[0] == \"end\":\n            break\n        elif args[0] == 'show':\n            if lapiseira is not None:\n                print(lapiseira)\n            else:\n                print('fail: lapiseira nao inicializada')\n        elif args[0] == 'init':\n            calibre = float(args[1])\n            lapiseira = Pen(calibre)\n        elif args[0] == 'insert':\n            if lapiseira:\n                espessura = float(args[1])\n                dureza = args[2]\n                tamanho = int(args[3])\n                grafite = Grafite(espessura, dureza, tamanho)\n                lapiseira.insert(grafite)\n            else:\n                print('fail: lapiseira nao inicializada')\n        elif args[0] == 'remove':\n            if lapiseira:\n                lapiseira.remove()\n            else:\n                print('fail: lapiseira nao inicializada')\n        elif args[0] == 'write':\n            if lapiseira:\n                lapiseira.writePage()\n            else:\n                print('fail: lapiseira nao inicializada')\n\nmain()\n    \n\n       \n        ",
+            "lines": "113"
+        }
+    ]
+}

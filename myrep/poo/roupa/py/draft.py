@@ -1,13 +1,12 @@
-
 class Roupa:
-    def __init__(self): # isso é o construtor em python
-        self.__tamanho: str = "" # atributos em python com __ na frente são privados
+    def __init__(self): 
+        self.__tamanho: str = "" 
 
-    def getTamanho(self) -> str: # métodos em python tem self como primeiro atributo
+    def getTamanho(self) -> str:  
         return self.__tamanho
 
     def setTamanho(self, valor: str):  
-        valor = valor.upper()  # implementar os testes de valor e disparar os avisos caso necessário
+        valor = valor.upper()  
         if valor not in ['PP','P', 'M', 'G', 'GG', 'XG']:
             print("fail: Valor inválido, tente PP, P, M, G, GG ou XG")
         else:

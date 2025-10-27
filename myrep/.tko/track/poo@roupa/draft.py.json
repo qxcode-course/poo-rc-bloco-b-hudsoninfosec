@@ -27,8 +27,13 @@
         },
         {
             "label": "2025-10-18_00-42-18",
-            "content": "\nclass Roupa:\n    def __init__(self): # isso \u00e9 o construtor em python\n        self.__tamanho: str = \"\" # atributos em python com __ na frente s\u00e3o privados\n\n    def getTamanho(self) -> str: # m\u00e9todos em python tem self como primeiro atributo\n        return self.__tamanho\n\n    def setTamanho(self, valor: str):  \n        valor = valor.upper()  # implementar os testes de valor e disparar os avisos caso necess\u00e1rio\n        if valor not in ['PP','P', 'M', 'G', 'GG', 'XG']:\n            print(\"fail: Valor inv\u00e1lido, tente PP, P, M, G, GG ou XG\")\n        else:\n            self.__tamanho = valor \n \ndef main():\n    \n    roupa = Roupa() \n\n    while True:\n        line = input()\n        print(\"$\" + line)\n        args: list[str] = line.split()\n\n        if len(args) == 0:\n            continue\n        if args[0] == \"end\":\n            break\n        elif args[0] == \"show\":\n            print(f\"size: ({roupa.getTamanho()})\")\n        elif args[0] == \"size\":\n            if len(args) > 1:\n                roupa.setTamanho(args[1])\n            else:\n                print(\"fail: Valor inv\u00e1lido, tente PP, P, M, G, GG ou XG\")\nmain()\n\n\n",
+            "content": "@@ -1,8 +1,9 @@\n+%0A\n class Ro\n@@ -31,16 +31,47 @@\n (self): \n+# isso %C3%A9 o construtor em python\n %0A       \n@@ -100,44 +100,145 @@\n  %22%22 \n-%0A%0A    def getTamanho(self) -%3E str:  \n+# atributos em python com __ na frente s%C3%A3o privados%0A%0A    def getTamanho(self) -%3E str: # m%C3%A9todos em python tem self como primeiro atributo\n %0A   \n@@ -336,16 +336,85 @@\n pper()  \n+# implementar os testes de valor e disparar os avisos caso necess%C3%A1rio\n %0A       \n",
             "lines": "38"
+        },
+        {
+            "label": "2025-10-21_21-06-34",
+            "content": "class Roupa:\n    def __init__(self): \n        self.__tamanho: str = \"\" \n\n    def getTamanho(self) -> str:  \n        return self.__tamanho\n\n    def setTamanho(self, valor: str):  \n        valor = valor.upper()  \n        if valor not in ['PP','P', 'M', 'G', 'GG', 'XG']:\n            print(\"fail: Valor inv\u00e1lido, tente PP, P, M, G, GG ou XG\")\n        else:\n            self.__tamanho = valor \n \ndef main():\n    \n    roupa = Roupa() \n\n    while True:\n        line = input()\n        print(\"$\" + line)\n        args: list[str] = line.split()\n\n        if len(args) == 0:\n            continue\n        if args[0] == \"end\":\n            break\n        elif args[0] == \"show\":\n            print(f\"size: ({roupa.getTamanho()})\")\n        elif args[0] == \"size\":\n            if len(args) > 1:\n                roupa.setTamanho(args[1])\n            else:\n                print(\"fail: Valor inv\u00e1lido, tente PP, P, M, G, GG ou XG\")\nmain()\n\n\n",
+            "lines": "37"
         }
     ]
 }

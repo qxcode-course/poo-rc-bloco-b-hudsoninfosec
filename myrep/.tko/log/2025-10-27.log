@@ -1,0 +1,56 @@
+2025-10-27 17:38:22, MOVE, v:1, k:poo@grafite, mode:DOWN
+2025-10-27 17:38:22, MOVE, v:1, k:poo@grafite, mode:PICK
+2025-10-27 17:38:22, EXEC, v:1, k:poo@grafite, mode:FULL, rate:0, size:0
+2025-10-27 17:38:23, EXEC, v:1, k:poo@grafite, mode:FULL, rate:0
+2025-10-27 17:38:24, MOVE, v:1, k:poo@grafite, mode:BACK
+2025-10-27 17:38:25, MOVE, v:1, k:poo@grafite, mode:PICK
+2025-10-27 17:58:32, MOVE, v:1, k:poo@grafite, mode:BACK
+2025-10-27 17:58:45, MOVE, v:1, k:poo@grafite, mode:PICK
+2025-10-27 17:58:46, EXEC, v:1, k:poo@grafite, mode:FULL, rate:0, size:21
+2025-10-27 17:58:47, EXEC, v:1, k:poo@grafite, mode:FULL, rate:0
+2025-10-27 17:58:48, MOVE, v:1, k:poo@grafite, mode:BACK
+2025-10-27 18:15:24, MOVE, v:1, k:poo@grafite, mode:PICK
+2025-10-27 18:15:25, EXEC, v:1, k:poo@grafite, mode:FULL, rate:0, size:35
+2025-10-27 18:15:26, MOVE, v:1, k:poo@grafite, mode:BACK
+2025-10-27 18:19:07, MOVE, v:1, k:poo@grafite, mode:PICK
+2025-10-27 18:19:08, EXEC, v:1, k:poo@grafite, mode:FULL, rate:0, size:42
+2025-10-27 18:19:09, MOVE, v:1, k:poo@grafite, mode:BACK
+2025-10-27 18:30:26, MOVE, v:1, k:poo@grafite, mode:PICK
+2025-10-27 18:30:26, EXEC, v:1, k:poo@grafite, mode:FULL, rate:0, size:46
+2025-10-27 18:30:28, MOVE, v:1, k:poo@grafite, mode:BACK
+2025-10-27 18:33:37, MOVE, v:1, k:poo@grafite, mode:PICK
+2025-10-27 18:33:37, EXEC, v:1, k:poo@grafite, mode:FULL, rate:0, size:51
+2025-10-27 18:33:38, MOVE, v:1, k:poo@grafite, mode:BACK
+2025-10-27 18:43:27, MOVE, v:1, k:poo@grafite, mode:PICK
+2025-10-27 18:43:28, EXEC, v:1, k:poo@grafite, mode:FULL, rate:0, size:71
+2025-10-27 18:43:29, MOVE, v:1, k:poo@grafite, mode:BACK
+2025-10-27 18:52:47, MOVE, v:1, k:poo@grafite, mode:PICK
+2025-10-27 18:52:48, EXEC, v:1, k:poo@grafite, mode:FULL, rate:0, size:113
+2025-10-27 18:52:49, MOVE, v:1, k:poo@grafite, mode:BACK
+2025-10-27 18:52:50, MOVE, v:1, k:poo@grafite, mode:PICK
+2025-10-27 18:52:50, EXEC, v:1, k:poo@grafite, mode:FULL, rate:0
+2025-10-27 18:55:10, EXEC, v:1, k:poo@grafite, mode:FULL, rate:10, size:113
+2025-10-27 18:55:35, EXEC, v:1, k:poo@grafite, mode:FULL, rate:10, size:113
+2025-10-27 18:55:53, EXEC, v:1, k:poo@grafite, mode:FULL, rate:100, size:113
+2025-10-27 18:55:59, EXEC, v:1, k:poo@grafite, mode:FULL, rate:100
+2025-10-27 18:56:00, MOVE, v:1, k:poo@grafite, mode:BACK
+2025-10-27 18:56:35, SELF, v:1, k:poo@grafite, rate:100, alone:10
+2025-10-27 18:57:19, SELF, v:1, k:poo@grafite, rate:100, human:Sim, iagen:SIm, guide:No, other:NO, alone:10, study:130
+2025-10-27 18:57:20, MOVE, v:1, k:poo@grafite, mode:PICK
+2025-10-27 18:57:21, EXEC, v:1, k:poo@grafite, mode:FULL, rate:100
+2025-10-27 18:57:23, EXEC, v:1, k:poo@grafite, mode:FULL, rate:100
+2025-10-27 18:57:24, MOVE, v:1, k:poo@grafite, mode:BACK
+2025-10-27 18:57:36, SELF, v:1, k:poo@grafite, rate:100, human:Sim, iagen:SIm, guide:No, other:NO, alone:10, study:130
+2025-10-27 18:57:36, MOVE, v:1, k:poo@grafite, mode:PICK
+2025-10-27 18:57:37, EXEC, v:1, k:poo@grafite, mode:FULL, rate:100
+2025-10-27 18:57:37, MOVE, v:1, k:poo@grafite, mode:BACK
+2025-10-27 18:57:49, SELF, v:1, k:poo@relogio, rate:100, alone:10
+2025-10-27 18:57:51, MOVE, v:1, k:poo@roupa, mode:PICK
+2025-10-27 18:57:52, MOVE, v:1, k:poo@roupa, mode:BACK
+2025-10-27 18:58:04, SELF, v:1, k:poo@roupa, rate:100, alone:10
+2025-10-27 18:58:06, MOVE, v:1, k:poo@camisa, mode:PICK
+2025-10-27 18:58:07, MOVE, v:1, k:poo@camisa, mode:BACK
+2025-10-27 18:58:13, SELF, v:1, k:poo@camisa, rate:100, alone:10
+2025-10-27 18:58:15, MOVE, v:1, k:poo@chinela, mode:PICK
+2025-10-27 18:58:17, MOVE, v:1, k:poo@chinela, mode:BACK
+2025-10-27 18:58:25, SELF, v:1, k:poo@chinela, rate:100, alone:10
