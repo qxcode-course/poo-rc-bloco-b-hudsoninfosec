@@ -25,7 +25,10 @@ tasks:
   poo@camisa: '{rate:100, alone:10}'
   poo@roupa: '{rate:100, alone:10}'
   poo@relogio: '{rate:100, alone:10}'
+  poo@notebook: '{rate:100, alone:10}'
+  poo@motoca: '{rate:100, alone:10}'
   poo@grafite: '{rate:100, human:Sim, iagen:SIm, guide:No, other:NO, alone:10, study:130}'
+  poo@motouber: '{rate:100, alone:10}'
 flags:
   quests: 0
   tracks: 0
@@ -33,4 +36,4 @@ flags:
   graph: 1
   xray: 0
 lang: py
-selected: poo@motoca
+selected: poo@tamagotchi

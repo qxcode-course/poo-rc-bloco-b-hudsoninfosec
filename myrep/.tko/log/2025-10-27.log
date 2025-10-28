@@ -138,3 +138,131 @@
 2025-10-27 20:31:05, EXEC, v:1, k:poo@motoca, mode:FULL, rate:93, size:104
 2025-10-27 20:31:21, EXEC, v:1, k:poo@motoca, mode:FULL, rate:100, size:104
 2025-10-27 20:31:22, MOVE, v:1, k:poo@motoca, mode:BACK
+2025-10-27 20:32:19, SELF, v:1, k:poo@motoca, rate:100, alone:10
+2025-10-27 20:32:56, MOVE, v:1, k:poo@motouber, mode:DOWN
+2025-10-27 20:32:56, MOVE, v:1, k:poo@motouber, mode:PICK
+2025-10-27 20:32:56, EXEC, v:1, k:poo@motouber, mode:FULL, rate:0, size:0
+2025-10-27 20:32:57, MOVE, v:1, k:poo@motouber, mode:BACK
+2025-10-27 20:32:58, MOVE, v:1, k:poo@motouber, mode:PICK
+2025-10-27 21:38:11, EXEC, v:1, k:poo@motouber, mode:FULL, rate:0, size:23
+2025-10-27 21:38:12, MOVE, v:1, k:poo@motouber, mode:BACK
+2025-10-27 21:38:13, MOVE, v:1, k:poo@motouber, mode:PICK
+2025-10-27 21:38:14, EXEC, v:1, k:poo@motouber, mode:FULL, rate:0
+2025-10-27 21:38:14, MOVE, v:1, k:poo@motouber, mode:BACK
+2025-10-27 21:38:18, MOVE, v:1, k:poo@motouber, mode:PICK
+2025-10-27 21:38:19, EXEC, v:1, k:poo@motouber, mode:FULL, rate:0
+2025-10-27 21:38:19, MOVE, v:1, k:poo@motouber, mode:BACK
+2025-10-27 21:39:33, MOVE, v:1, k:poo@motouber, mode:PICK
+2025-10-27 21:39:34, EXEC, v:1, k:poo@motouber, mode:FULL, rate:0
+2025-10-27 21:39:34, MOVE, v:1, k:poo@motouber, mode:BACK
+2025-10-27 21:52:08, MOVE, v:1, k:poo@motouber, mode:PICK
+2025-10-27 21:52:08, EXEC, v:1, k:poo@motouber, mode:FULL, rate:0
+2025-10-27 21:52:08, MOVE, v:1, k:poo@motouber, mode:BACK
+2025-10-27 22:00:20, MOVE, v:1, k:poo@motouber, mode:PICK
+2025-10-27 22:00:20, EXEC, v:1, k:poo@motouber, mode:FULL, rate:0, size:63
+2025-10-27 22:00:20, MOVE, v:1, k:poo@motouber, mode:BACK
+2025-10-27 22:00:48, MOVE, v:1, k:poo@motouber, mode:PICK
+2025-10-27 22:00:48, EXEC, v:1, k:poo@motouber, mode:FULL, rate:0
+2025-10-27 22:00:49, MOVE, v:1, k:poo@motouber, mode:BACK
+2025-10-27 22:01:59, MOVE, v:1, k:poo@motouber, mode:PICK
+2025-10-27 22:01:59, EXEC, v:1, k:poo@motouber, mode:FULL, rate:0, size:67
+2025-10-27 22:02:00, MOVE, v:1, k:poo@motouber, mode:BACK
+2025-10-27 22:48:19, MOVE, v:1, k:poo@motouber, mode:PICK
+2025-10-27 22:48:19, EXEC, v:1, k:poo@motouber, mode:FULL, rate:0, size:70
+2025-10-27 22:48:20, EXEC, v:1, k:poo@motouber, mode:FULL, rate:0
+2025-10-27 22:48:20, MOVE, v:1, k:poo@motouber, mode:BACK
+2025-10-27 22:49:12, MOVE, v:1, k:poo@motouber, mode:PICK
+2025-10-27 22:49:13, EXEC, v:1, k:poo@motouber, mode:FULL, rate:0, size:128
+2025-10-27 22:49:15, MOVE, v:1, k:poo@motouber, mode:BACK
+2025-10-27 22:49:21, MOVE, v:1, k:poo@motouber, mode:PICK
+2025-10-27 22:49:21, EXEC, v:1, k:poo@motouber, mode:FULL, rate:0, size:127
+2025-10-27 22:49:23, MOVE, v:1, k:poo@motouber, mode:BACK
+2025-10-27 22:50:27, MOVE, v:1, k:poo@motouber, mode:PICK
+2025-10-27 22:50:28, EXEC, v:1, k:poo@motouber, mode:FULL, rate:87, size:120
+2025-10-27 22:50:59, MOVE, v:1, k:poo@motouber, mode:PICK
+2025-10-27 22:51:00, EXEC, v:1, k:poo@motouber, mode:FULL, rate:87
+2025-10-27 22:51:12, EXEC, v:1, k:poo@motouber, mode:FULL, rate:87, size:120
+2025-10-27 22:51:35, EXEC, v:1, k:poo@motouber, mode:FULL, rate:87, size:120
+2025-10-27 22:52:42, EXEC, v:1, k:poo@motouber, mode:FULL, rate:87
+2025-10-27 22:52:50, EXEC, v:1, k:poo@motouber, mode:FULL, rate:87, size:120
+2025-10-27 22:54:58, EXEC, v:1, k:poo@motouber, mode:FULL, rate:50, size:120
+2025-10-27 22:55:21, EXEC, v:1, k:poo@motouber, mode:FULL, rate:87, size:120
+2025-10-27 22:59:07, EXEC, v:1, k:poo@motouber, mode:FULL, rate:87
+2025-10-27 23:00:24, EXEC, v:1, k:poo@motouber, mode:FULL, rate:100, size:120
+2025-10-27 23:00:34, EXEC, v:1, k:poo@motouber, mode:FULL, rate:100, size:120
+2025-10-27 23:00:35, MOVE, v:1, k:poo@motouber, mode:BACK
+2025-10-27 23:00:47, SELF, v:1, k:poo@motouber, rate:100, alone:10
+2025-10-27 23:02:03, MOVE, v:1, k:poo@notebook, mode:PICK
+2025-10-27 23:02:05, EXEC, v:1, k:poo@notebook, mode:LOCK, rate:100
+2025-10-27 23:02:20, MOVE, v:1, k:poo@notebook, mode:BACK
+2025-10-27 23:03:03, MOVE, v:1, k:poo@notebook, mode:PICK
+2025-10-27 23:03:04, EXEC, v:1, k:poo@notebook, mode:LOCK, rate:100, size:10
+2025-10-27 23:03:04, EXEC, v:1, k:poo@notebook, mode:LOCK, rate:100, size:10
+2025-10-27 23:03:05, MOVE, v:1, k:poo@notebook, mode:BACK
+2025-10-27 23:05:58, MOVE, v:1, k:poo@notebook, mode:PICK
+2025-10-27 23:05:58, MOVE, v:1, k:poo@notebook, mode:BACK
+2025-10-27 23:06:30, MOVE, v:1, k:poo@notebook, mode:PICK
+2025-10-27 23:06:30, EXEC, v:1, k:poo@notebook, mode:LOCK, rate:100, size:19
+2025-10-27 23:06:30, MOVE, v:1, k:poo@notebook, mode:BACK
+2025-10-27 23:11:06, MOVE, v:1, k:poo@notebook, mode:PICK
+2025-10-27 23:11:07, EXEC, v:1, k:poo@notebook, mode:LOCK, rate:100, size:42
+2025-10-27 23:11:07, MOVE, v:1, k:poo@notebook, mode:BACK
+2025-10-27 23:16:45, MOVE, v:1, k:poo@notebook, mode:PICK
+2025-10-27 23:16:46, EXEC, v:1, k:poo@notebook, mode:LOCK, rate:0, size:53
+2025-10-27 23:16:46, MOVE, v:1, k:poo@notebook, mode:BACK
+2025-10-27 23:22:59, MOVE, v:1, k:poo@notebook, mode:PICK
+2025-10-27 23:22:59, EXEC, v:1, k:poo@notebook, mode:LOCK, rate:0, size:56
+2025-10-27 23:22:59, MOVE, v:1, k:poo@notebook, mode:BACK
+2025-10-27 23:32:07, MOVE, v:1, k:poo@notebook, mode:PICK
+2025-10-27 23:32:08, EXEC, v:1, k:poo@notebook, mode:LOCK, rate:0, size:64
+2025-10-27 23:32:08, MOVE, v:1, k:poo@notebook, mode:BACK
+2025-10-27 23:33:01, MOVE, v:1, k:poo@notebook, mode:PICK
+2025-10-27 23:33:02, EXEC, v:1, k:poo@notebook, mode:LOCK, rate:0, size:87
+2025-10-27 23:33:02, MOVE, v:1, k:poo@notebook, mode:BACK
+2025-10-27 23:38:17, MOVE, v:1, k:poo@notebook, mode:PICK
+2025-10-27 23:38:18, EXEC, v:1, k:poo@notebook, mode:LOCK, rate:0, size:98
+2025-10-27 23:38:18, MOVE, v:1, k:poo@notebook, mode:BACK
+2025-10-27 23:38:59, MOVE, v:1, k:poo@notebook, mode:PICK
+2025-10-27 23:39:00, EXEC, v:1, k:poo@notebook, mode:LOCK, rate:0, size:93
+2025-10-27 23:39:00, MOVE, v:1, k:poo@notebook, mode:BACK
+2025-10-27 23:42:25, MOVE, v:1, k:poo@notebook, mode:PICK
+2025-10-27 23:42:25, EXEC, v:1, k:poo@notebook, mode:LOCK, rate:0
+2025-10-27 23:42:25, MOVE, v:1, k:poo@notebook, mode:BACK
+2025-10-27 23:42:36, MOVE, v:1, k:poo@notebook, mode:PICK
+2025-10-27 23:42:36, EXEC, v:1, k:poo@notebook, mode:LOCK, rate:0
+2025-10-27 23:42:36, EXEC, v:1, k:poo@notebook, mode:LOCK, rate:0
+2025-10-27 23:42:36, EXEC, v:1, k:poo@notebook, mode:LOCK, rate:0
+2025-10-27 23:42:37, EXEC, v:1, k:poo@notebook, mode:LOCK, rate:0
+2025-10-27 23:42:37, EXEC, v:1, k:poo@notebook, mode:LOCK, rate:0
+2025-10-27 23:42:37, EXEC, v:1, k:poo@notebook, mode:LOCK, rate:0
+2025-10-27 23:42:37, EXEC, v:1, k:poo@notebook, mode:LOCK, rate:0
+2025-10-27 23:42:37, EXEC, v:1, k:poo@notebook, mode:LOCK, rate:0
+2025-10-27 23:42:37, EXEC, v:1, k:poo@notebook, mode:LOCK, rate:0
+2025-10-27 23:42:38, EXEC, v:1, k:poo@notebook, mode:LOCK, rate:0
+2025-10-27 23:42:38, EXEC, v:1, k:poo@notebook, mode:LOCK, rate:0
+2025-10-27 23:42:38, EXEC, v:1, k:poo@notebook, mode:LOCK, rate:0
+2025-10-27 23:42:38, EXEC, v:1, k:poo@notebook, mode:LOCK, rate:0
+2025-10-27 23:42:38, EXEC, v:1, k:poo@notebook, mode:LOCK, rate:0
+2025-10-27 23:42:38, EXEC, v:1, k:poo@notebook, mode:LOCK, rate:0
+2025-10-27 23:42:38, EXEC, v:1, k:poo@notebook, mode:LOCK, rate:0
+2025-10-27 23:42:39, EXEC, v:1, k:poo@notebook, mode:LOCK, rate:0
+2025-10-27 23:42:39, EXEC, v:1, k:poo@notebook, mode:LOCK, rate:0
+2025-10-27 23:42:39, EXEC, v:1, k:poo@notebook, mode:LOCK, rate:0
+2025-10-27 23:42:39, EXEC, v:1, k:poo@notebook, mode:LOCK, rate:0
+2025-10-27 23:42:39, EXEC, v:1, k:poo@notebook, mode:LOCK, rate:0
+2025-10-27 23:42:39, EXEC, v:1, k:poo@notebook, mode:LOCK, rate:0
+2025-10-27 23:42:39, EXEC, v:1, k:poo@notebook, mode:LOCK, rate:0
+2025-10-27 23:43:05, MOVE, v:1, k:poo@notebook, mode:PICK
+2025-10-27 23:43:06, EXEC, v:1, k:poo@notebook, mode:LOCK, rate:0, size:98
+2025-10-27 23:43:07, MOVE, v:1, k:poo@notebook, mode:BACK
+2025-10-27 23:43:17, SELF, v:1, k:poo@notebook, rate:100, alone:10
+2025-10-27 23:48:56, MOVE, v:1, k:poo@tamagotchi, mode:DOWN
+2025-10-27 23:48:56, MOVE, v:1, k:poo@tamagotchi, mode:PICK
+2025-10-27 23:49:07, EXEC, v:1, k:poo@tamagotchi, mode:FULL, rate:0, size:2
+2025-10-27 23:49:08, MOVE, v:1, k:poo@tamagotchi, mode:BACK
+2025-10-27 23:50:40, MOVE, v:1, k:poo@tamagotchi, mode:PICK
+2025-10-27 23:50:41, EXEC, v:1, k:poo@tamagotchi, mode:FULL, rate:0, size:10
+2025-10-27 23:50:41, MOVE, v:1, k:poo@tamagotchi, mode:BACK
+2025-10-27 23:51:39, MOVE, v:1, k:poo@tamagotchi, mode:PICK
+2025-10-27 23:51:40, EXEC, v:1, k:poo@tamagotchi, mode:FULL, rate:0, size:19
+2025-10-27 23:51:40, MOVE, v:1, k:poo@tamagotchi, mode:BACK

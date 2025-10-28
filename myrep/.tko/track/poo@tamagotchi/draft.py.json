@@ -1,0 +1,19 @@
+{
+    "patches": [
+        {
+            "label": "2025-10-27_23-49-07",
+            "content": "@@ -1,282 +1,2 @@\n-class Tamagotchi:%0A    def __init__(self, energyMax: int, cleanMax: int):%0A        self.__energyMax = energyMax%0A        self.__cleanMax = cleanMax%0A        self.__energy = energyMax%0A        self.__clean = cleanMax%0A        self.__age = 0%0A        self.__alive = True%0A%0A    def set_energy\n+%0A\n %0A\n",
+            "lines": "2"
+        },
+        {
+            "label": "2025-10-27_23-50-41",
+            "content": "@@ -278,312 +278,5 @@\n ergy\n-(self, value: int):%0A        if value %3C= 0:%0A            self.__energy = 0%0A            self.__alive = False%0A            return 'fail: pet morreu de fraqueza'%0A        elif value %3E self.__energyMax:%0A            self.__energy = self.__energyMax%0A        else:%0A            self.__energy = value%0A        return None\n %0A\n",
+            "lines": "10"
+        },
+        {
+            "label": "2025-10-27_23-51-40",
+            "content": "class Tamagotchi:\n    def __init__(self, energyMax: int, cleanMax: int):\n        self.__energyMax = energyMax\n        self.__cleanMax = cleanMax\n        self.__energy = energyMax\n        self.__clean = cleanMax\n        self.__age = 0\n        self.__alive = True\n\n    def set_energy(self, value: int):\n        if value <= 0:\n            self.__energy = 0\n            self.__alive = False\n            return 'fail: pet morreu de fraqueza'\n        elif value > self.__energyMax:\n            self.__energy = self.__energyMax\n        else:\n            self.__energy = value\n        return None\n",
+            "lines": "19"
+        }
+    ]
+}
