@@ -1,0 +1,19 @@
+{
+    "patches": [
+        {
+            "label": "2025-10-28_00-18-08",
+            "content": "@@ -197,13 +197,8 @@\n pacity%7D%22\n-%0A    \n",
+            "lines": "7"
+        },
+        {
+            "label": "2025-10-28_00-47-32",
+            "content": "@@ -97,21 +97,22 @@\n  self.__\n-level\n+charge\n  = capac\n@@ -115,16 +115,20 @@\n apacity%0A\n+    \n %0A    def\n@@ -132,13 +132,11 @@\n def \n-using\n+get\n Batt\n@@ -166,17 +166,17 @@\n rn f\n-'\n+%22\n %7Bself.__\n leve\n@@ -175,13 +175,14 @@\n f.__\n-level\n+charge\n %7D/%7Bs\n@@ -200,5 +200,10 @@\n ity%7D\n-'\n+%22%0A    \n",
+            "lines": "8"
+        },
+        {
+            "label": "2025-10-28_00-48-29",
+            "content": "class Battery:\n    def __init__(self, capacity: int):\n        self.__capacity = capacity\n        self.__level = capacity\n\n    def usingBattery(self):\n        return f'{self.__level}/{self.__capacity}'",
+            "lines": "7"
+        }
+    ]
+}

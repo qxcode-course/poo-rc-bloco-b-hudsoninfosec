@@ -29,6 +29,7 @@ tasks:
   poo@motoca: '{rate:100, alone:10}'
   poo@grafite: '{rate:100, human:Sim, iagen:SIm, guide:No, other:NO, alone:10, study:130}'
   poo@motouber: '{rate:100, alone:10}'
+  poo@tamagotchi: '{rate:100, alone:10}'
 flags:
   quests: 0
   tracks: 0
