@@ -160,3 +160,69 @@
 2025-10-28 01:16:42, EXEC, v:1, k:poo@tamagotchi, mode:FULL, rate:100, size:128
 2025-10-28 01:16:45, MOVE, v:1, k:poo@tamagotchi, mode:BACK
 2025-10-28 01:16:52, SELF, v:1, k:poo@tamagotchi, rate:100, alone:10
+2025-10-28 01:17:48, MOVE, v:1, k:poo@charger, mode:PICK
+2025-10-28 01:17:49, EXEC, v:1, k:poo@charger, mode:FULL, rate:0
+2025-10-28 01:17:49, MOVE, v:1, k:poo@charger, mode:BACK
+2025-10-28 01:19:05, MOVE, v:1, k:poo@charger, mode:PICK
+2025-10-28 01:19:06, EXEC, v:1, k:poo@charger, mode:FULL, rate:0
+2025-10-28 01:19:06, MOVE, v:1, k:poo@charger, mode:BACK
+2025-10-28 01:20:57, MOVE, v:1, k:poo@charger, mode:PICK
+2025-10-28 01:20:58, EXEC, v:1, k:poo@charger, mode:FULL, rate:0, size:13
+2025-10-28 01:20:58, MOVE, v:1, k:poo@charger, mode:BACK
+2025-10-28 01:23:05, MOVE, v:1, k:poo@charger, mode:PICK
+2025-10-28 01:23:06, EXEC, v:1, k:poo@charger, mode:FULL, rate:0, size:18
+2025-10-28 01:23:06, MOVE, v:1, k:poo@charger, mode:BACK
+2025-10-28 01:26:56, MOVE, v:1, k:poo@charger, mode:PICK
+2025-10-28 01:26:56, EXEC, v:1, k:poo@charger, mode:FULL, rate:0
+2025-10-28 01:26:56, MOVE, v:1, k:poo@charger, mode:BACK
+2025-10-28 01:27:20, MOVE, v:1, k:poo@charger, mode:PICK
+2025-10-28 01:27:20, EXEC, v:1, k:poo@charger, mode:FULL, rate:0, size:23
+2025-10-28 01:27:20, MOVE, v:1, k:poo@charger, mode:BACK
+2025-10-28 01:48:06, MOVE, v:1, k:poo@charger, mode:PICK
+2025-10-28 01:48:07, EXEC, v:1, k:poo@charger, mode:FULL, rate:0
+2025-10-28 01:48:07, MOVE, v:1, k:poo@charger, mode:BACK
+2025-10-28 01:49:30, MOVE, v:1, k:poo@charger, mode:PICK
+2025-10-28 01:49:30, EXEC, v:1, k:poo@charger, mode:FULL, rate:0, size:29
+2025-10-28 01:49:31, MOVE, v:1, k:poo@charger, mode:BACK
+2025-10-28 01:50:38, MOVE, v:1, k:poo@charger, mode:PICK
+2025-10-28 01:50:39, EXEC, v:1, k:poo@charger, mode:FULL, rate:0, size:34
+2025-10-28 01:50:39, MOVE, v:1, k:poo@charger, mode:BACK
+2025-10-28 01:56:15, MOVE, v:1, k:poo@charger, mode:PICK
+2025-10-28 01:56:16, EXEC, v:1, k:poo@charger, mode:FULL, rate:0, size:52
+2025-10-28 01:56:16, MOVE, v:1, k:poo@charger, mode:BACK
+2025-10-28 01:56:25, MOVE, v:1, k:poo@charger, mode:PICK
+2025-10-28 01:56:25, MOVE, v:1, k:poo@charger, mode:BACK
+2025-10-28 02:00:47, MOVE, v:1, k:poo@charger, mode:PICK
+2025-10-28 02:00:48, EXEC, v:1, k:poo@charger, mode:FULL, rate:0, size:73
+2025-10-28 02:00:48, MOVE, v:1, k:poo@charger, mode:BACK
+2025-10-28 02:07:07, MOVE, v:1, k:poo@charger, mode:PICK
+2025-10-28 02:07:08, EXEC, v:1, k:poo@charger, mode:FULL, rate:0, size:107
+2025-10-28 02:07:08, MOVE, v:1, k:poo@charger, mode:BACK
+2025-10-28 02:09:21, MOVE, v:1, k:poo@charger, mode:PICK
+2025-10-28 02:09:22, EXEC, v:1, k:poo@charger, mode:FULL, rate:0, size:123
+2025-10-28 02:09:22, MOVE, v:1, k:poo@charger, mode:BACK
+2025-10-28 02:09:47, MOVE, v:1, k:poo@charger, mode:PICK
+2025-10-28 02:09:48, EXEC, v:1, k:poo@charger, mode:FULL, rate:25, size:153
+2025-10-28 02:11:54, EXEC, v:1, k:poo@charger, mode:FULL, rate:25
+2025-10-28 02:11:55, MOVE, v:1, k:poo@charger, mode:BACK
+2025-10-28 02:11:56, MOVE, v:1, k:poo@charger, mode:PICK
+2025-10-28 02:11:57, MOVE, v:1, k:poo@charger, mode:BACK
+2025-10-28 02:13:42, MOVE, v:1, k:poo@charger, mode:PICK
+2025-10-28 02:13:43, EXEC, v:1, k:poo@charger, mode:FULL, rate:25
+2025-10-28 02:13:43, MOVE, v:1, k:poo@charger, mode:BACK
+2025-10-28 02:15:54, MOVE, v:1, k:poo@charger, mode:PICK
+2025-10-28 02:15:55, EXEC, v:1, k:poo@charger, mode:FULL, rate:25
+2025-10-28 02:16:01, MOVE, v:1, k:poo@charger, mode:BACK
+2025-10-28 02:16:09, MOVE, v:1, k:poo@charger, mode:PICK
+2025-10-28 02:16:09, EXEC, v:1, k:poo@charger, mode:FULL, rate:25
+2025-10-28 02:16:10, MOVE, v:1, k:poo@charger, mode:BACK
+2025-10-28 02:16:18, MOVE, v:1, k:poo@charger, mode:PICK
+2025-10-28 02:16:19, EXEC, v:1, k:poo@charger, mode:FULL, rate:30, size:153
+2025-10-28 02:18:31, EXEC, v:1, k:poo@charger, mode:FULL, rate:45, size:153
+2025-10-28 02:18:43, EXEC, v:1, k:poo@charger, mode:FULL, rate:45, size:153
+2025-10-28 02:19:17, EXEC, v:1, k:poo@charger, mode:FULL, rate:50, size:153
+2025-10-28 02:19:43, EXEC, v:1, k:poo@charger, mode:FULL, rate:55, size:153
+2025-10-28 02:21:31, EXEC, v:1, k:poo@charger, mode:FULL, rate:90, size:154
+2025-10-28 02:21:53, EXEC, v:1, k:poo@charger, mode:FULL, rate:100, size:154
+2025-10-28 02:21:55, MOVE, v:1, k:poo@charger, mode:BACK
+2025-10-28 02:22:00, SELF, v:1, k:poo@charger, rate:100, alone:10
